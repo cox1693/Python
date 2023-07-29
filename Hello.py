@@ -16,3 +16,7 @@ c = 5 == 3
 d=7>3
 print (c)
 print (d)
+n=0
+while n<50:
+    print(n)
+    n += 1
