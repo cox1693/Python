@@ -1,4 +1,3 @@
-Name,Age
 Rose,20
 Anna,29
 Miko,30

@@ -45,3 +45,14 @@ file1 = open('database.txt', 'r')
 Lines = file1.readlines()
 print(Lines)
 
+for line in Lines: 
+  #  print(line)
+    column = line.split(",")
+   # print(column[1])
+    if int(column[1]) > 25:
+        print(line)
+        
+        
+    
+
+
