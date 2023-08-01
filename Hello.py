@@ -20,3 +20,7 @@ n=0
 while n<50:
     print(n)
     n += 1
+print (10+3)
+y=10
+b=3
+print (y+b)
