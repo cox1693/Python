@@ -24,3 +24,7 @@ print (10+3)
 y=10
 b=3
 print (y+b)
+fruitlist=["kiwi","apple","pear"]
+for fruit in fruitlist:
+    print(fruit)
+    
