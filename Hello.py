@@ -27,4 +27,10 @@ print (y+b)
 fruitlist=["kiwi","apple","pear"]
 for fruit in fruitlist:
     print(fruit)
-    
+for  n in range(0,60):
+    print(n)
+    if n % 2 == 1:
+        print("odd")
+    else:
+        print("even")
+        
