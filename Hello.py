@@ -40,3 +40,8 @@ def addAandB(a,b):
     return a+2*b 
 
 print(addAandB(4,2))
+
+file1 = open('database.txt', 'r')
+Lines = file1.readlines()
+print(Lines)
+
