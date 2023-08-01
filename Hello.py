@@ -33,4 +33,10 @@ for  n in range(0,60):
         print("odd")
     else:
         print("even")
-        
+
+
+def addAandB(a,b):
+    print("This is a function")
+    return a+2*b 
+
+print(addAandB(4,2))
