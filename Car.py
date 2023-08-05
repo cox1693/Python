@@ -28,8 +28,20 @@ class Car:
             self.Speed = 0
             print("Nothing happen Car is not running")
             return None
-        self.Speed= StepDown
-        print("The car speed is",self.Speed)
+        
+        if StepDown > self.Speed:
+            self.Speed = StepDown
+        print("The current speed is ",self.Speed)
+
+    def StepBrakePedal(self, StepDown):
+        if self.Speed > 100-StepDown:
+            self.Speed = 100-StepDown
+        print("The current speed is",self.Speed)
+
+
+
+       # self.Speed= StepDown
+       # print("The car speed is",self.Speed)
 
     def SignalRight(self):
         if self.EngineState == True:
@@ -71,12 +83,16 @@ class Car:
 Nissan = Car()
 #Nissan.TurnKey()
 #Nissan.StepGasPedal(50)
+Nissan.StepBrakePedal(25)
 Nissan.TurnKey()
 
 Nissan.SignalLeft()
 Nissan.SignalRight()
 #Nissan.StepGasPedal()
 Nissan.StepGasPedal(75)
+Nissan.StepGasPedal(25)
+Nissan.StepBrakePedal(50)
+
 
 
 
