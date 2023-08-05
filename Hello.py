@@ -52,7 +52,36 @@ for line in Lines:
     if int(column[1]) > 25:
         print(line)
         
-        
-    
+class MarvelSuperHero: #This is the object name
+
+    #These are the attributes
+    weight = 100
+    Age= 10
+
+    #There are the methods
+
+    def __init__(self,name): #Constructor
+
+        self.HeroName = name
+
+    def Eat(self, kgofFood):
+        self.weight = self.weight +kgofFood
+        self.Age = 29
+        Age1 = 20
+        print(Age1)
+
+    def Gain10Pounds(self):
+        self.weight += 10
+
+    #This is creating an object
+Spiderman = MarvelSuperHero("Spiderman2")
+print(Spiderman.HeroName)
+print(Spiderman.Age)
+Spiderman.Age= 55
+print(Spiderman.Age)
+print(Spiderman.weight)
+Spiderman.weight= 250
+print(Spiderman.weight)
+
 
 
